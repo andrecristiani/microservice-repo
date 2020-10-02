@@ -2,8 +2,8 @@ spring:
   jpa:
   database: MYSQL
   show-sql: true
-  hibernate:
-    ddl-auto: update
+    hibernate:
+      ddl-auto: update
   
   datasource:
     url: jdbc:mysql://localhost/transportador?createDatabaseIfNotExist=true&useSSL=false&useTimeZone=true&serverTimezone=UTC
