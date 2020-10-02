@@ -1,0 +1,11 @@
+spring:
+  jpa:
+  database: MYSQL
+  show-sql: true
+  hibernate:
+    ddl-auto: update
+  
+  datasource:
+    url: jdbc:mysql://localhost/loja?createDatabaseIfNotExist=true&useSSL=false&useTimeZone=true&serverTimezone=UTC
+    username: root
+    password: root
