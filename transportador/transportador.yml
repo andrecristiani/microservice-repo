@@ -6,6 +6,6 @@ spring:
     ddl-auto: update
   
   datasource:
-    url: jdbc:mysql://localhost/loja?createDatabaseIfNotExist=true&useSSL=false&useTimeZone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost/transportador?createDatabaseIfNotExist=true&useSSL=false&useTimeZone=true&serverTimezone=UTC
     username: root
     password: root
