@@ -1,7 +1,7 @@
 spring:
   jpa:
-  database: MYSQL
-  show-sql: true
+    database: MYSQL
+    show-sql: true
     hibernate:
       ddl-auto: update
   
